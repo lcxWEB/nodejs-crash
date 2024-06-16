@@ -16,7 +16,6 @@ const server = createServer((req, res) => {
         res.setHeader('Content-Type', 'application/json');
         res.write(JSON.stringify(users));
         res.end();
-       
     } else if (req.url.match(/\/api\/users\/([0-9]+)/) && req.method === 'GET') {
         const id = req.url.split('/')[3];
         const user = users.find((user) => user.id === parseInt(id));
