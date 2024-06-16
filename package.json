@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "node server.js",
-    "start": "nodemon --env-file=.env server.js",
+    "start": "nodemon --env-file=.env server2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ella",
