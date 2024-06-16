@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-crash",
+  "version": "1.0.0",
+  "description": "Node.js crash",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ella",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
